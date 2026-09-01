@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badger Service — Authorized After-Sales Service Center</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950:#0b1a3a;
+    --navy-900:#0f2352;
+    --navy-800:#132a63;
+    --green-600:#16a34a;
+    --green-500:#22c55e;
+  }
+  html{ scroll-behavior:smooth; }
+  body{ font-family:'Inter', sans-serif; color:#1e2433; scroll-padding-top:80px; }
+  html{ scroll-padding-top:80px; }
+  h1,h2,h3,.font-display{ font-family:'Poppins', sans-serif; }
+  .navy-gradient{
+    background: linear-gradient(120deg, #0a1730 0%, #0f2455 45%, #123071 100%);
+  }
+  .clip-diagonal{
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+  }
+  .clip-diagonal-top{
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+  }
+  .eyebrow{
+    color: var(--green-600);
+    font-weight:600;
+    font-size:0.8rem;
+  }
+</style>
+</head>
+<body class="bg-white antialiased">
+
+<!-- ================= HERO / NAV ================= -->
+<!-- ================= STICKY NAV ================= -->
+<nav id="site-nav" class="sticky top-0 z-50 navy-gradient/95 backdrop-blur bg-[#0f2352]/95 shadow-lg shadow-black/10 transition-colors">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
+    <a href="#home" class="flex items-center gap-2">
+      <div class="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center font-bold text-white text-lg">B</div>
+      <div class="leading-tight">
+        <p class="font-display font-bold text-base text-white">BADGER</p>
+        <p class="text-[9px] tracking-widest text-blue-200 -mt-1">SERVICE</p>
+      </div>
+    </a>
+    <ul class="hidden lg:flex items-center gap-8 text-sm text-blue-100">
+      <li><a href="#home" data-nav-link class="nav-link text-white border-b-2 border-green-500 pb-1 transition-colors">Beranda</a></li>
+      <li><a href="#tentang" data-nav-link class="nav-link hover:text-white pb-1 border-b-2 border-transparent transition-colors">Tentang Kami</a></li>
+      <li><a href="#layanan" data-nav-link class="nav-link hover:text-white pb-1 border-b-2 border-transparent transition-colors">Layanan</a></li>
+      <li><a href="#brand" data-nav-link class="nav-link hover:text-white pb-1 border-b-2 border-transparent transition-colors">Brand</a></li>
+      <li><a href="#keunggulan" data-nav-link class="nav-link hover:text-white pb-1 border-b-2 border-transparent transition-colors">Keunggulan</a></li>
+      <li><a href="#faq" data-nav-link class="nav-link hover:text-white pb-1 border-b-2 border-transparent transition-colors">FAQ</a></li>
+    </ul>
+    <a href="https://wa.me/6288295003996?text=Halo%20Badger%20Service%2C%20saya%20ingin%20bertanya%20mengenai%20layanan%20after-sales%20untuk%20produk%20home%20appliance%20saya." target="_blank" rel="noopener" class="hidden sm:flex items-center gap-2 bg-green-600 hover:bg-green-500 transition text-white text-sm font-medium px-4 py-2 rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.32A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .78.8-2.93-.2-.3A7.94 7.94 0 014 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/></svg>
+      Hubungi Kami
+    </a>
+  </div>
+</nav>
+
+<header id="home" class="navy-gradient text-white relative overflow-hidden">
+  <div class="clip-diagonal pb-14">
+    <!-- Hero content -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-10 items-center mt-10 pb-16">
+      <div>
+        <p class="eyebrow text-green-400">BADGER SERVICE CENTER</p>
+        <h1 class="font-display font-bold text-3xl sm:text-4xl lg:text-[2.6rem] leading-tight mt-3">
+          Authorized After-Sales<br>Service Center
+        </h1>
+        <p class="text-blue-100 mt-2 font-medium">for Trusted Home Appliance Brands</p>
+        <p class="text-blue-200/90 text-sm leading-relaxed mt-4 max-w-md">
+          Badger Service merupakan pusat layanan purna jual yang dipercaya dan ditunjuk oleh principal berbagai brand home appliance untuk memberikan layanan service, maintenance, dan dukungan teknis kepada pelanggan.
+        </p>
+
+        <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 text-sm text-blue-100">
+          <span class="flex items-center gap-2"><svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 1l7 3v6c0 5-3.4 8.4-7 9-3.6-.6-7-4-7-9V4l7-3z" clip-rule="evenodd"/></svg>Service Resmi</span>
+          <span class="flex items-center gap-2"><svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a4 4 0 100-8 4 4 0 000 8zm-7 9a7 7 0 0114 0H3z"/></svg>Teknisi Berpengalaman</span>
+          <span class="flex items-center gap-2"><svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.29.7l3 3a1 1 0 001.42-1.4L11 9.59V6z" clip-rule="evenodd"/></svg>Dukungan After-Sales Terpercaya</span>
+        </div>
+
+        <div class="flex flex-wrap gap-3 mt-7">
+          <a href="https://wa.me/6288295003996?text=Halo%20Badger%20Service%2C%20saya%20ingin%20menghubungi%20service%20center%20untuk%20konsultasi%20produk%20home%20appliance%20saya." target="_blank" rel="noopener" class="flex items-center gap-2 bg-green-600 hover:bg-green-500 transition text-white text-sm font-medium px-5 py-3 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.32A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+            Hubungi Service Center
+          </a>
+          <a href="#brand" class="flex items-center gap-2 border border-white/40 hover:border-white transition text-white text-sm font-medium px-5 py-3 rounded-full">
+            Lihat Brand yang Kami Tangani <span>+</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10 aspect-[4/3] bg-slate-800">
+          <img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?q=80&w=1200&auto=format&fit=crop" alt="Modern kitchen appliances" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= LAYANAN AFTER-SALES ================= -->
+<section id="layanan" class="bg-slate-50 py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-12 items-start">
+    <div>
+      <p class="eyebrow">LAYANAN AFTER-SALES RESMI</p>
+      <h2 class="font-display font-bold text-2xl lg:text-3xl text-slate-900 mt-2 leading-snug">
+        Layanan After-Sales yang Dapat Anda Percaya
+      </h2>
+      <p class="text-slate-600 text-sm leading-relaxed mt-4">
+        Memilih tempat service bukan hanya mengenai memperbaiki produk. Untuk produk home appliance berkualitas, penanganan yang tepat membutuhkan teknisi yang memahami produk, prosedur yang sesuai, serta dukungan spare part yang tepat.
+      </p>
+      <p class="text-slate-600 text-sm leading-relaxed mt-3">
+        Sebagai service center yang dipercaya oleh principal, Badger Service membantu memastikan setiap produk mendapatkan penanganan sesuai standar brand.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl p-5 shadow-sm ring-1 ring-slate-100">
+        <div class="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center text-white mb-3">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 1l7 3v6c0 5-3.4 8.4-7 9-3.6-.6-7-4-7-9V4l7-3z" clip-rule="evenodd"/></svg>
+        </div>
+        <h3 class="font-semibold text-slate-900 text-sm">Authorized Service</h3>
+        <p class="text-xs text-slate-500 mt-2 leading-relaxed">Layanan after-sales untuk brand yang menunjuk Badger Service sebagai partner service mereka.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-sm ring-1 ring-slate-100">
+        <div class="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center text-white mb-3">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a4 4 0 100-8 4 4 0 000 8zm-7 9a7 7 0 0114 0H3z"/></svg>
+        </div>
+        <h3 class="font-semibold text-slate-900 text-sm">Teknisi Berpengalaman</h3>
+        <p class="text-xs text-slate-500 mt-2 leading-relaxed">Tim teknisi tersertifikasi dengan pemahaman mendalam terhadap berbagai brand.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-sm ring-1 ring-slate-100">
+        <div class="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center text-white mb-3">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.53 1.53 0 01-2.28.94c-1.37-.83-2.94.74-2.11 2.11.53.88.02 2.02-.94 2.28-1.56.38-1.56 2.6 0 2.98a1.53 1.53 0 01.94 2.28c-.83 1.37.74 2.94 2.11 2.11a1.53 1.53 0 012.28.94c.38 1.56 2.6 1.56 2.98 0a1.53 1.53 0 012.28-.94c1.37.83 2.94-.74 2.11-2.11a1.53 1.53 0 01.94-2.28c1.56-.38 1.56-2.6 0-2.98a1.53 1.53 0 01-.94-2.28c.83-1.37-.74-2.94-2.11-2.11a1.53 1.53 0 01-2.28-.94zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/></svg>
+        </div>
+        <h3 class="font-semibold text-slate-900 text-sm">Spare Part Sesuai Standar</h3>
+        <p class="text-xs text-slate-500 mt-2 leading-relaxed">Penggunaan spare part sesuai kebutuhan dan standar produk masing-masing brand.</p>
+      </div>
+      <div class="bg-white rounded-xl p-5 shadow-sm ring-1 ring-slate-100">
+        <div class="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center text-white mb-3">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 1l7 3v6c0 5-3.4 8.4-7 9-3.6-.6-7-4-7-9V4l7-3z" clip-rule="evenodd"/></svg>
+        </div>
+        <h3 class="font-semibold text-slate-900 text-sm">Garansi Service</h3>
+        <p class="text-xs text-slate-500 mt-2 leading-relaxed">Dukungan setelah pengerjaan service sesuai ketentuan yang berlaku.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BRANDS ================= -->
+<section id="brand" class="bg-white py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 text-center">
+    <p class="eyebrow">BRAND YANG KAMI TANGANI</p>
+    <h2 class="font-display font-bold text-2xl lg:text-3xl text-slate-900 mt-2">Authorized After-Sales Support for Leading Brands</h2>
+    <p class="text-slate-500 text-sm mt-3 max-w-xl mx-auto">Badger Service dipercaya menangani layanan purna jual untuk berbagai brand home appliance dan kitchen appliance.</p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-10">
+      <!-- brand cards -->
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-red-600 font-bold text-sm gap-1">⌂ ARISTON</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-900 font-bold text-sm">DELIZIA</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-700 font-semibold text-sm gap-1">◉ BERTAZZONI</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-800 font-bold text-sm">LAGERMANIA</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-blue-800 font-bold text-sm italic">ROYAL</div>
+
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-red-600 font-bold text-sm gap-1">⌂ ASKO</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-900 font-bold text-sm gap-1">▤ FABER</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-500 font-semibold text-sm italic">FAMEC</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-red-600 font-bold text-sm">KitchenAid</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-900 font-semibold text-sm">BOUCHNECT</div>
+
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-blue-900 font-bold text-sm">INVISA</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-red-600 font-semibold text-sm gap-1">♦ LELIT</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-sky-500 font-semibold text-sm italic">mabe</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-red-600 font-semibold text-sm">LaPavoni</div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-900 font-semibold text-sm">SCHOLTÈS</div>
+
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center">
+        <span class="bg-red-600 text-white font-bold text-xs px-2 py-1">FRANKE</span>
+      </div>
+      <div class="border border-slate-200 rounded-lg py-6 flex items-center justify-center text-slate-800 font-semibold text-sm italic">Whirlpool</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KATEGORI PRODUK ================= -->
+<section class="bg-slate-50 py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+      <div class="max-w-xl">
+        <p class="eyebrow">KATEGORI PRODUK</p>
+        <h2 class="font-display font-bold text-2xl lg:text-3xl text-slate-900 mt-2 leading-snug">Satu Service Center untuk Berbagai Kebutuhan Home Appliance</h2>
+        <p class="text-slate-500 text-sm mt-3">Kami menangani berbagai kategori produk rumah tangga dan kitchen appliance dari brand yang kami dukung.</p>
+      </div>
+      <a href="https://wa.me/6288295003996?text=Halo%20Badger%20Service%2C%20saya%20ingin%20konsultasi%20mengenai%20produk%20home%20appliance%20saya." target="_blank" rel="noopener" class="flex items-center gap-2 bg-green-600 hover:bg-green-500 transition text-white text-sm font-medium px-5 py-3 rounded-full whitespace-nowrap">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.32A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+        Konsultasikan Produk Anda <span>+</span>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mt-10">
+      <div class="bg-white rounded-xl overflow-hidden ring-1 ring-slate-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?q=80&w=400&auto=format&fit=crop" class="h-28 w-full object-cover" alt="Cooking Appliances">
+        <div class="p-3">
+          <p class="text-blue-600 text-xs mb-1">⛭</p>
+          <h3 class="font-semibold text-xs text-slate-900">Cooking Appliances</h3>
+          <p class="text-[11px] text-slate-500 mt-1 leading-snug">Oven, built-in oven, cooker, hob, kompor, range cooker, dan produk cooking lainnya.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden ring-1 ring-slate-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?q=80&w=400&auto=format&fit=crop" class="h-28 w-full object-cover" alt="Refrigeration">
+        <div class="p-3">
+          <p class="text-blue-600 text-xs mb-1">❄</p>
+          <h3 class="font-semibold text-xs text-slate-900">Refrigeration</h3>
+          <p class="text-[11px] text-slate-500 mt-1 leading-snug">Refrigerator, freezer, wine cooler, dan sistem pendingin rumah tangga.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden ring-1 ring-slate-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1washing-machine?q=80&w=400&auto=format&fit=crop" onerror="this.src='https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?q=80&w=400&auto=format&fit=crop'" class="h-28 w-full object-cover" alt="Laundry">
+        <div class="p-3">
+          <p class="text-blue-600 text-xs mb-1">🌀</p>
+          <h3 class="font-semibold text-xs text-slate-900">Laundry</h3>
+          <p class="text-[11px] text-slate-500 mt-1 leading-snug">Washing machine, dryer, washer dryer, dan appliance laundry lainnya.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden ring-1 ring-slate-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?q=80&w=400&auto=format&fit=crop" class="h-28 w-full object-cover" alt="Water Heating">
+        <div class="p-3">
+          <p class="text-blue-600 text-xs mb-1">💧</p>
+          <h3 class="font-semibold text-xs text-slate-900">Water Heating</h3>
+          <p class="text-[11px] text-slate-500 mt-1 leading-snug">Water heater dan sistem pemanas air rumah tangga.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden ring-1 ring-slate-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1556909114-44e3e70034e2?q=80&w=400&auto=format&fit=crop" class="h-28 w-full object-cover" alt="Kitchen Appliances">
+        <div class="p-3">
+          <p class="text-blue-600 text-xs mb-1">🍳</p>
+          <h3 class="font-semibold text-xs text-slate-900">Kitchen Appliances</h3>
+          <p class="text-[11px] text-slate-500 mt-1 leading-snug">Cooker hood, dishwasher, built-in appliances, dan perangkat dapur lainnya.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden ring-1 ring-slate-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&auto=format&fit=crop" class="h-28 w-full object-cover" alt="Coffee Equipment">
+        <div class="p-3">
+          <p class="text-blue-600 text-xs mb-1">☕</p>
+          <h3 class="font-semibold text-xs text-slate-900">Coffee Equipment</h3>
+          <p class="text-[11px] text-slate-500 mt-1 leading-snug">Coffee machine dan professional home coffee equipment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TIM YANG MEMAHAMI BRAND ================= -->
+<section id="keunggulan" class="bg-white py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-12 items-center">
+    <div class="relative">
+      <div class="rounded-2xl overflow-hidden shadow-xl aspect-[4/3] bg-slate-800">
+        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop" alt="Teknisi Badger Service" class="w-full h-full object-cover">
+      </div>
+      <div class="absolute bottom-4 -right-4 sm:right-4 bg-white shadow-lg rounded-xl px-4 py-3 flex items-center gap-2">
+        <span class="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center text-xs">✓</span>
+        <p class="text-xs font-semibold text-slate-800">Trusted by<br>Leading Brands</p>
+      </div>
+    </div>
+
+    <div>
+      <p class="eyebrow">MENGAPA SERVICE MELALUI BADGER?</p>
+      <h2 class="font-display font-bold text-2xl lg:text-3xl text-slate-900 mt-2 leading-snug">Produk Anda Ditangani oleh Tim yang Memahami Brand-nya</h2>
+      <p class="text-slate-600 text-sm mt-4 leading-relaxed">
+        Tidak semua tempat service memiliki akses, pengalaman, dan pemahaman yang sama terhadap sebuah produk. Melalui Badger Service, pelanggan mendapatkan layanan dari tim after-sales yang memang menangani brand tersebut.
+      </p>
+
+      <div class="grid sm:grid-cols-2 gap-x-6 gap-y-5 mt-6">
+        <div class="flex gap-3">
+          <span class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center flex-shrink-0">🎯</span>
+          <div>
+            <h3 class="font-semibold text-sm text-slate-900">Ditunjuk oleh Principal</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Bekerja sebagai partner after-sales untuk brand yang mempercayakan layanan pelanggannya.</p>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <span class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center flex-shrink-0">📐</span>
+          <div>
+            <h3 class="font-semibold text-sm text-slate-900">Standar Service Sesuai Brand</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Proses pemeriksaan dan perbaikan dilakukan sesuai karakteristik masing-masing produk.</p>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <span class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center flex-shrink-0">👷</span>
+          <div>
+            <h3 class="font-semibold text-sm text-slate-900">Teknisi Berpengalaman</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Tim teknisi terbiasa menangani berbagai brand dan kategori produk.</p>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <span class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center flex-shrink-0">🛡</span>
+          <div>
+            <h3 class="font-semibold text-sm text-slate-900">Dukungan Spare Part</h3>
+            <p class="text-xs text-slate-500 mt-1 leading-relaxed">Membantu memastikan kebutuhan spare part ditangani melalui jalur yang sesuai.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRUSTED PARTNER BANNER ================= -->
+<section id="tentang" class="navy-gradient text-white py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <p class="eyebrow text-green-400">TENTANG BADGER SERVICE</p>
+      <h2 class="font-display font-bold text-2xl lg:text-3xl mt-2 leading-snug">Your Trusted After-Sales Service Partner</h2>
+      <p class="text-blue-100 text-sm mt-4 leading-relaxed max-w-md">
+        Badger Service hadir sebagai perusahaan layanan teknis yang berfokus pada after-sales service untuk home appliance dan kitchen appliance.
+      </p>
+      <p class="text-blue-100 text-sm mt-3 leading-relaxed max-w-md">
+        Kami bekerja bersama berbagai principal dan brand untuk membantu menjaga pengalaman pelanggan bahkan setelah produk berada di rumah mereka.
+      </p>
+    </div>
+
+    <div>
+      <blockquote class="border-l-2 border-green-400 pl-5 text-blue-50 italic text-lg leading-relaxed">
+        Layanan after-sales bukan hanya mengenai memperbaiki produk yang bermasalah. Ini tentang menjaga kepercayaan pelanggan terhadap brand.
+      </blockquote>
+      <div class="grid grid-cols-4 gap-4 mt-10 text-center">
+        <div>
+          <div class="w-10 h-10 mx-auto rounded-full bg-white/10 flex items-center justify-center mb-2">👥</div>
+          <p class="text-xs text-blue-100">Profesional</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 mx-auto rounded-full bg-white/10 flex items-center justify-center mb-2">⚡</div>
+          <p class="text-xs text-blue-100">Responsif</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 mx-auto rounded-full bg-white/10 flex items-center justify-center mb-2">🔷</div>
+          <p class="text-xs text-blue-100">Transparan</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 mx-auto rounded-full bg-white/10 flex items-center justify-center mb-2">🛡</div>
+          <p class="text-xs text-blue-100">Terpercaya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROSES SERVICE ================= -->
+<section class="bg-white py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+    <p class="eyebrow">PROSES SERVICE</p>
+    <h2 class="font-display font-bold text-2xl lg:text-3xl text-slate-900 mt-2">Mudah dan Terarah</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-6 mt-10">
+      <div class="flex flex-col items-start gap-3">
+        <div class="flex items-center gap-2">
+          <span class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center justify-center font-semibold text-sm">📞</span>
+          <span class="text-xs text-slate-400 font-semibold">01</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm text-slate-900">Hubungi Badger</h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Informasikan brand, jenis produk, dan kendala.</p>
+        </div>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <div class="flex items-center gap-2">
+          <span class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center justify-center font-semibold text-sm">📋</span>
+          <span class="text-xs text-slate-400 font-semibold">02</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm text-slate-900">Verifikasi Produk</h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Tim kami melakukan pengecekan informasi produk.</p>
+        </div>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <div class="flex items-center gap-2">
+          <span class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center justify-center font-semibold text-sm">🗓</span>
+          <span class="text-xs text-slate-400 font-semibold">03</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm text-slate-900">Jadwalkan Teknisi</h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Kunjungan teknisi dijadwalkan sesuai area dan ketersediaan.</p>
+        </div>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <div class="flex items-center gap-2">
+          <span class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center justify-center font-semibold text-sm">🔧</span>
+          <span class="text-xs text-slate-400 font-semibold">04</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm text-slate-900">Pemeriksaan &amp; Service</h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Teknisi melakukan diagnosis dan pengerjaan sesuai kebutuhan.</p>
+        </div>
+      </div>
+      <div class="flex flex-col items-start gap-3">
+        <div class="flex items-center gap-2">
+          <span class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center justify-center font-semibold text-sm">🛡</span>
+          <span class="text-xs text-slate-400 font-semibold">05</span>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm text-slate-900">After-Service Support</h3>
+          <p class="text-xs text-slate-500 mt-1 leading-relaxed">Tetap membantu jika perlu setelah service selesai.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONI + FAQ ================= -->
+<section id="faq" class="bg-slate-50 py-16 lg:py-20">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-10">
+    <div>
+      <p class="eyebrow">APA KATA PELANGGAN?</p>
+      <h2 class="font-display font-bold text-2xl text-slate-900 mt-2 leading-snug">Kepercayaan yang Terus Kami Jaga</h2>
+      <p class="text-slate-500 text-sm mt-3">Kepuasan pelanggan adalah motivasi kami untuk terus memberikan layanan terbaik.</p>
+      <button class="flex items-center gap-2 border border-slate-300 hover:border-slate-500 transition text-slate-700 text-sm font-medium px-5 py-2.5 rounded-full mt-6">
+        Lihat Semua Testimoni <span>+</span>
+      </button>
+
+      <div class="grid sm:grid-cols-2 gap-4 mt-8">
+        <div class="bg-white rounded-xl p-5 shadow-sm ring-1 ring-slate-100">
+          <p class="text-amber-400 text-sm mb-2">★★★★★</p>
+          <p class="text-xs text-slate-600 leading-relaxed italic">Teknisi sangat profesional, datang tepat waktu dan penjelasannya jelas. Service cepat dan hasilnya memuaskan.</p>
+          <p class="text-xs font-semibold text-slate-900 mt-3">Rina S.</p>
+          <p class="text-[11px] text-slate-400">Jakarta</p>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-sm ring-1 ring-slate-100">
+          <p class="text-amber-400 text-sm mb-2">★★★★★</p>
+          <p class="text-xs text-slate-600 leading-relaxed italic">Senang ada service center resmi untuk brand kami. Prosesnya rapi, komunikatif, dan terpercaya.</p>
+          <p class="text-xs font-semibold text-slate-900 mt-3">Andi P.</p>
+          <p class="text-[11px] text-slate-400">Tangerang</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="eyebrow">PERTANYAAN UMUM</p>
+      <h2 class="font-display font-bold text-2xl text-slate-900 mt-2">FAQ</h2>
+
+      <div class="mt-6 divide-y divide-slate-200 bg-white rounded-xl ring-1 ring-slate-100 px-5">
+        <details class="py-4 group" open>
+          <summary class="flex justify-between items-center cursor-pointer text-sm font-medium text-slate-800 list-none">
+            Apakah Badger Service resmi?
+            <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="text-xs text-slate-500 mt-2 leading-relaxed">Ya, Badger Service ditunjuk oleh principal berbagai brand sebagai partner after-sales resmi.</p>
+        </details>
+        <details class="py-4 group">
+          <summary class="flex justify-between items-center cursor-pointer text-sm font-medium text-slate-800 list-none">
+            Brand apa saja yang ditangani?
+            <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="text-xs text-slate-500 mt-2 leading-relaxed">Kami menangani berbagai brand home appliance dan kitchen appliance terkemuka.</p>
+        </details>
+        <details class="py-4 group">
+          <summary class="flex justify-between items-center cursor-pointer text-sm font-medium text-slate-800 list-none">
+            Apakah tersedia spare part?
+            <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="text-xs text-slate-500 mt-2 leading-relaxed">Spare part disediakan sesuai standar masing-masing brand.</p>
+        </details>
+        <details class="py-4 group">
+          <summary class="flex justify-between items-center cursor-pointer text-sm font-medium text-slate-800 list-none">
+            Apakah teknisi bisa datang ke rumah?
+            <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="text-xs text-slate-500 mt-2 leading-relaxed">Ya, kunjungan teknisi dijadwalkan sesuai area dan ketersediaan.</p>
+        </details>
+        <details class="py-4 group">
+          <summary class="flex justify-between items-center cursor-pointer text-sm font-medium text-slate-800 list-none">
+            Bagaimana cara booking service?
+            <span class="text-slate-400 group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="text-xs text-slate-500 mt-2 leading-relaxed">Hubungi kami via WhatsApp atau telepon service center untuk menjadwalkan kunjungan.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section id="cta" class="navy-gradient text-white">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 py-12 flex flex-col lg:flex-row items-center justify-between gap-6">
+    <div>
+      <h2 class="font-display font-bold text-xl lg:text-2xl">Pastikan Produk Anda Ditangani Service Center yang Tepat</h2>
+      <p class="text-blue-100 text-sm mt-2">Hubungi Badger Service untuk memastikan produk Anda mendapatkan penanganan yang sesuai standar.</p>
+    </div>
+    <div class="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+      <a href="https://wa.me/6288295003996?text=Halo%20Badger%20Service%2C%20saya%20ingin%20memastikan%20produk%20home%20appliance%20saya%20ditangani%20oleh%20service%20center%20yang%20tepat." target="_blank" rel="noopener" class="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 transition text-white text-sm font-medium px-5 py-3 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.32A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+        Hubungi via WhatsApp
+      </a>
+      <a href="tel:+6288295003996" class="flex items-center justify-center gap-2 border border-white/40 hover:border-white transition text-white text-sm font-medium px-5 py-3 rounded-full">
+        📞 Telepon Service Center
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-[#0a1730] text-blue-100">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <div class="flex items-center gap-2 mb-4">
+        <div class="w-9 h-9 rounded-lg bg-blue-500 flex items-center justify-center font-bold text-white text-lg">B</div>
+        <div class="leading-tight">
+          <p class="font-display font-bold text-base text-white">BADGER</p>
+          <p class="text-[9px] tracking-widest text-blue-300 -mt-1">SERVICE</p>
+        </div>
+      </div>
+      <p class="text-xs text-blue-300 leading-relaxed">Taking Care of Your Appliance,<br>Taking Care of Your Brand.</p>
+    </div>
+
+    <div>
+      <h3 class="text-white font-semibold text-sm mb-4">Quick Links</h3>
+      <ul class="space-y-2 text-xs text-blue-300">
+        <li><a href="#home" class="hover:text-white transition-colors">Beranda</a></li>
+        <li><a href="#tentang" class="hover:text-white transition-colors">Tentang Kami</a></li>
+        <li><a href="#layanan" class="hover:text-white transition-colors">Layanan</a></li>
+        <li><a href="#brand" class="hover:text-white transition-colors">Brand</a></li>
+        <li><a href="#faq" class="hover:text-white transition-colors">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-white font-semibold text-sm mb-4">Service Center</h3>
+      <ul class="space-y-2 text-xs text-blue-300">
+        <li class="flex items-center gap-2"><a href="tel:+6288295003996" class="hover:text-white transition-colors">📞 0882-9500-3996</a></li>
+        <li class="flex items-center gap-2"><a href="https://wa.me/6288295003996?text=Halo%20Badger%20Service%2C%20saya%20ingin%20bertanya%20mengenai%20layanan%20after-sales." target="_blank" rel="noopener" class="hover:text-white transition-colors">💬 0882-9500-3996</a></li>
+        <li class="flex items-center gap-2"><a href="mailto:service@badgerservice.com" class="hover:text-white transition-colors">✉️ service@badgerservice.com</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-white font-semibold text-sm mb-4">Jam Operasional</h3>
+      <p class="flex items-center gap-2 text-xs text-blue-300">🕒 Senin – Sabtu<br>08.00 – 17.00 WIB</p>
+    </div>
+  </div>
+  <div class="border-t border-white/10 py-5 text-center text-[11px] text-blue-400">
+    © 2025 Badger Service. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  // Highlight nav link that matches the section currently in view
+  const navLinks = document.querySelectorAll('[data-nav-link]');
+  const sections = Array.from(navLinks)
+    .map(link => document.querySelector(link.getAttribute('href')))
+    .filter(Boolean);
+
+  function setActiveLink(id){
+    navLinks.forEach(link => {
+      const active = link.getAttribute('href') === '#' + id;
+      link.classList.toggle('text-white', active);
+      link.classList.toggle('border-green-500', active);
+      link.classList.toggle('text-blue-100', !active);
+      link.classList.toggle('border-transparent', !active);
+    });
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        setActiveLink(entry.target.id);
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+  sections.forEach(section => observer.observe(section));
+</script>
+
+</body>
+</html>
